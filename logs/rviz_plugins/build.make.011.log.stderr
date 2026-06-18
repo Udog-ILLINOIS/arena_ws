@@ -1,0 +1,8 @@
+In file included from [01m[K/home/abdel/arena_ws/build/rviz_plugins/src/moc_continuous_gap_selection_tool.cpp:9[m[K:
+[01m[K/home/abdel/arena_ws/build/rviz_plugins/src/../../../src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.h:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   30 |   [01;31m[Kgeometry_msgs[m[K::PointStamped lastKnownPos_;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rviz_plugins.dir/build.make:153: CMakeFiles/rviz_plugins.dir/src/moc_continuous_gap_selection_tool.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:1939: CMakeFiles/rviz_plugins.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

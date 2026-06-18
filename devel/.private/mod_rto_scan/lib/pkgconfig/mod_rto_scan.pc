@@ -1,0 +1,8 @@
+prefix=/home/abdel/arena_ws/devel/.private/mod_rto_scan
+
+Name: mod_rto_scan
+Description: Description of mod_rto_scan
+Version: 0.0.0
+Cflags: -I/home/abdel/arena_ws/src/arena/utils/mod_rto_scan/include
+Libs: -L${prefix}/lib 
+Requires: 

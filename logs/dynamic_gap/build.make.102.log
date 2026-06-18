@@ -1,0 +1,35 @@
+[  7%] Built target dynamic_gap_gencfg
+[35m[1mScanning dependencies of target dynamic_gap[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_association/GapAssociator.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_estimation/PerfectEstimator.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/config/DynamicGapConfig.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_estimation/RotatingFrameCartesianKalmanFilter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_detection/GapDetector.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_association/GapPointAssociator.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_feasibility/GapFeasibilityChecker.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_association/Associator.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/gap_propagation/GapPropagator.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/global_plan_management/GlobalPlanManager.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/scan_processing/DynamicScanPropagator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_generation/GapTrajectoryGenerator.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_generation/GapGoalPlacer.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_generation/GapManipulator.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_generation/UngapTrajectoryGenerator.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/visualization/GapVisualizer.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_evaluation/TrajectoryEvaluator.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/ungap_feasibility/UngapFeasibilityChecker.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/visualization/AgentVisualizer.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/visualization/GoalVisualizer.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/visualization/TrajectoryVisualizer.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/trajectory_tracking/TrajectoryController.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/Planner.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/dynamic_gap.dir/src/DynamicGapPlanner.cpp.o[0m
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/trajectory_generation/GapTrajectoryGenerator.cpp:[m[K In member function ‘[01m[Kdynamic_gap::Trajectory dynamic_gap::GapTrajectoryGenerator::generateGoToGoalTrajectoryV2(dynamic_gap::Gap*, const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/trajectory_generation/GapTrajectoryGenerator.cpp:35:72:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::Point_<std::allocator<void> >::_x_type)globalGoalRobotFrame.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+   35 |                                     [01;35m[KglobalGoalRobotFrame.pose.position.x[m[K,
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/trajectory_generation/GapTrajectoryGenerator.cpp:36:72:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::Point_<std::allocator<void> >::_y_type)globalGoalRobotFrame.geometry_msgs::PoseStamped_<std::allocator<void> >::pose.geometry_msgs::Pose_<std::allocator<void> >::position.geometry_msgs::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+   36 |                                     [01;35m[KglobalGoalRobotFrame.pose.position.y[m[K};
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[ 96%] [32m[1mLinking CXX shared library /home/abdel/arena_ws/devel/.private/dynamic_gap/lib/libdynamic_gap.so[0m
+[100%] Built target dynamic_gap

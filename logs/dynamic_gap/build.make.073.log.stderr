@@ -1,0 +1,8 @@
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K In member function ‘[01m[Kvoid dynamic_gap::Planner::laserScanCB(boost::shared_ptr<sensor_msgs::LaserScan_<std::allocator<void> > >)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:320:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass dynamic_gap::GoalVisualizer[m[K’ has no member named ‘[01m[KdrawLineToGoal[m[K’
+  320 |             goalVisualizer_->[01;31m[KdrawLineToGoal[m[K(globalGoalRobotFrame_);
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/dynamic_gap.dir/build.make:349: CMakeFiles/dynamic_gap.dir/src/Planner.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:1657: CMakeFiles/dynamic_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

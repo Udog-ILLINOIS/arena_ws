@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pedsim[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/pedsim.dir/src/ped_agent.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library /home/abdel/arena_ws/devel/.private/pedsim/lib/libpedsim.so[0m
+[100%] Built target pedsim

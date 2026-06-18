@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/observations/share/common-lisp/ros/observations/msg/_package.lisp

@@ -1,0 +1,5 @@
+Symlinking /home/abdel/arena_ws/devel/lib/libhwi_switch_robot_hw_sim.so
+Symlinking /home/abdel/arena_ws/devel/lib/libhwi_switch_gazebo_ros_control.so
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/cob_gazebo_ros_control.pc
+Symlinking /home/abdel/arena_ws/devel/share/cob_gazebo_ros_control/cmake/cob_gazebo_ros_controlConfig.cmake
+Symlinking /home/abdel/arena_ws/devel/share/cob_gazebo_ros_control/cmake/cob_gazebo_ros_controlConfig-version.cmake

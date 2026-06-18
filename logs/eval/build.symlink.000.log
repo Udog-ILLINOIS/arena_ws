@@ -1,0 +1,5 @@
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/eval.pc
+Symlinking /home/abdel/arena_ws/devel/lib/eval/run_evals.py
+Symlinking /home/abdel/arena_ws/devel/lib/eval/cmake.lock
+Symlinking /home/abdel/arena_ws/devel/share/eval/cmake/evalConfig.cmake
+Symlinking /home/abdel/arena_ws/devel/share/eval/cmake/evalConfig-version.cmake

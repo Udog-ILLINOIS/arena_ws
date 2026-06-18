@@ -1,0 +1,4 @@
+Symlinking /home/abdel/arena_ws/devel/lib/libtraj_planner.so
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/traj_planner.pc
+Symlinking /home/abdel/arena_ws/devel/share/traj_planner/cmake/traj_plannerConfig.cmake
+Symlinking /home/abdel/arena_ws/devel/share/traj_planner/cmake/traj_plannerConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/python3/dist-packages/cob_omni_drive_controller/__init__.py

@@ -1,0 +1,4 @@
+Unlinking: /home/abdel/arena_ws/devel/lib/librviz_plugins.so
+Unlinking: /home/abdel/arena_ws/devel/lib/pkgconfig/rviz_plugins.pc
+Unlinking: /home/abdel/arena_ws/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
+Unlinking: /home/abdel/arena_ws/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake

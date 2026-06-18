@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/pedsim_simulator/lib/python3/dist-packages/pedsim_simulator/cfg/PedsimSimulatorConfig.py

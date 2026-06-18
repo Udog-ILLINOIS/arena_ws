@@ -1,0 +1,17 @@
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:29:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid rviz::ContinuousGapSelectionTool::activate()[m[K’
+   29 | void [01;31m[KContinuousGapSelectionTool[m[K::activate()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:10[m[K:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.h:18:16:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void rviz::ContinuousGapSelectionTool::activate()[m[K’ previously defined here
+   18 |   virtual void [01;36m[Kactivate[m[K() {}
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:34:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid rviz::ContinuousGapSelectionTool::deactivate()[m[K’
+   34 | void [01;31m[KContinuousGapSelectionTool[m[K::deactivate()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:10[m[K:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.h:19:16:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void rviz::ContinuousGapSelectionTool::deactivate()[m[K’ previously defined here
+   19 |   virtual void [01;36m[Kdeactivate[m[K() {}
+      |                [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rviz_plugins.dir/build.make:114: CMakeFiles/rviz_plugins.dir/src/continuous_gap_selection_tool.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1939: CMakeFiles/rviz_plugins.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

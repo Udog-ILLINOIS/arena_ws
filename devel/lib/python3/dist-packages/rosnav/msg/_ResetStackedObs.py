@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/rosnav/lib/python3/dist-packages/rosnav/msg/_ResetStackedObs.py

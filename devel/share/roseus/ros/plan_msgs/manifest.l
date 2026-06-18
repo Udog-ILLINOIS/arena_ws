@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/plan_msgs/share/roseus/ros/plan_msgs/manifest.l

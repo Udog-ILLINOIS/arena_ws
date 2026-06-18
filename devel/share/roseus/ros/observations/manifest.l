@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/observations/share/roseus/ros/observations/manifest.l

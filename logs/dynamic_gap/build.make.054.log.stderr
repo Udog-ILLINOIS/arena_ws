@@ -1,0 +1,18 @@
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K In member function ‘[01m[Kbool dynamic_gap::Planner::initialize(const string&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:126:9:[m[K [01;31m[Kerror: [m[K‘[01m[KrvizPublishPointSubsciber_[m[K’ was not declared in this scope
+  126 |         [01;31m[KrvizPublishPointSubsciber_[m[K = nh_.subscribe("/gap_selection_point", 1, &Planner::rvizPublishPointSubsciberCB, this); //initlize the pubcriber for the publish point RVIz button on manuel trajectroy selction
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:126:89:[m[K [01;31m[Kerror: [m[K‘[01m[KrvizPublishPointSubsciberCB[m[K’ is not a member of ‘[01m[Kdynamic_gap::Planner[m[K’
+  126 |         rvizPublishPointSubsciber_ = nh_.subscribe("/gap_selection_point", 1, &Planner::[01;31m[KrvizPublishPointSubsciberCB[m[K, this); //initlize the pubcriber for the publish point RVIz button on manuel trajectroy selction
+      |                                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K At global scope:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:649:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcl[m[K’ does not name a type
+  649 | [01;31m[Kcl[m[K
+      | [01;31m[K^~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K In lambda function:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:717:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct dynamic_gap::Planner::ManualCandidate[m[K’ has no member named ‘[01m[Kpath_odom_frame[m[K’
+  717 |             c.[01;31m[Kpath_odom_frame[m[K = traj.getPathOdomFrame();
+      |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/dynamic_gap.dir/build.make:349: CMakeFiles/dynamic_gap.dir/src/Planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1657: CMakeFiles/dynamic_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

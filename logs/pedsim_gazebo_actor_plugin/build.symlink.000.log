@@ -1,0 +1,4 @@
+Symlinking /home/abdel/arena_ws/devel/lib/libPedsimGazeboActorPlugin.so
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/pedsim_gazebo_actor_plugin.pc
+Symlinking /home/abdel/arena_ws/devel/share/pedsim_gazebo_actor_plugin/cmake/pedsim_gazebo_actor_pluginConfig-version.cmake
+Symlinking /home/abdel/arena_ws/devel/share/pedsim_gazebo_actor_plugin/cmake/pedsim_gazebo_actor_pluginConfig.cmake

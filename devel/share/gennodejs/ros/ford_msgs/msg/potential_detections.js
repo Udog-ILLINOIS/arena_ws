@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/ford_msgs/share/gennodejs/ros/ford_msgs/msg/potential_detections.js

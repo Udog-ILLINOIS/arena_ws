@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/barn_msgs/share/barn_msgs/cmake/barn_msgsConfig-version.cmake

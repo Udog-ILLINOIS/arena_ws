@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/barn_msgs/share/roseus/ros/barn_msgs/manifest.l

@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/spacial_horizon/share/spacial_horizon/cmake/spacial_horizonConfig.cmake

@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/rosnav/share/common-lisp/ros/rosnav/msg/_package.lisp

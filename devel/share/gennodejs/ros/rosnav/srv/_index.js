@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/rosnav/share/gennodejs/ros/rosnav/srv/_index.js

@@ -1,0 +1,2 @@
+set(cob_control_msgs_MESSAGE_FILES "/home/abdel/arena_ws/src/arena/utils/3rd-party-robot-packages/cob4/cob_control_msgs/msg/ObstacleDistance.msg;/home/abdel/arena_ws/src/arena/utils/3rd-party-robot-packages/cob4/cob_control_msgs/msg/ObstacleDistances.msg")
+set(cob_control_msgs_SERVICE_FILES "/home/abdel/arena_ws/src/arena/utils/3rd-party-robot-packages/cob4/cob_control_msgs/srv/GetObstacleDistance.srv")

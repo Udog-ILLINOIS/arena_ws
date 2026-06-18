@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/mbf_msgs/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseResult.py

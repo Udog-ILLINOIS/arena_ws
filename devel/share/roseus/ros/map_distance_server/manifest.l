@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/map_distance_server/share/roseus/ros/map_distance_server/manifest.l

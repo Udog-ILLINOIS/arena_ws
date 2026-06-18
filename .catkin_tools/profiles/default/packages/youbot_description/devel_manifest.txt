@@ -1,0 +1,5 @@
+arena/utils/3rd-party-robot-packages/youbot/youbot_description
+/home/abdel/arena_ws/devel/.private/youbot_description/cmake.lock /home/abdel/arena_ws/devel/./cmake.lock
+/home/abdel/arena_ws/devel/.private/youbot_description/lib/pkgconfig/youbot_description.pc /home/abdel/arena_ws/devel/lib/pkgconfig/youbot_description.pc
+/home/abdel/arena_ws/devel/.private/youbot_description/share/youbot_description/cmake/youbot_descriptionConfig-version.cmake /home/abdel/arena_ws/devel/share/youbot_description/cmake/youbot_descriptionConfig-version.cmake
+/home/abdel/arena_ws/devel/.private/youbot_description/share/youbot_description/cmake/youbot_descriptionConfig.cmake /home/abdel/arena_ws/devel/share/youbot_description/cmake/youbot_descriptionConfig.cmake

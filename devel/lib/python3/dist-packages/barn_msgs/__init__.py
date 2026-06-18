@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/barn_msgs/lib/python3/dist-packages/barn_msgs/__init__.py

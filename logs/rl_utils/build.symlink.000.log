@@ -1,0 +1,4 @@
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/rl_utils.pc
+Symlinking /home/abdel/arena_ws/devel/lib/python3/dist-packages/rl_utils/__init__.py
+Symlinking /home/abdel/arena_ws/devel/share/rl_utils/cmake/rl_utilsConfig.cmake
+Symlinking /home/abdel/arena_ws/devel/share/rl_utils/cmake/rl_utilsConfig-version.cmake

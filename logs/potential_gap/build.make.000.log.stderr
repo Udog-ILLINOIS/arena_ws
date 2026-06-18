@@ -1,0 +1,19 @@
+WARNING: Package name "LfH" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "gazebo_ros_2Dmap_plugin" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "LfH" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "gazebo_ros_2Dmap_plugin" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/abdel/arena_ws/src/planners/potential_gap/src/potential_gap.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kmbf_msgs/ExePathResult.h: No such file or directory
+   15 | #include [01;31m[K<mbf_msgs/ExePathResult.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/potential_gap.dir/build.make:89: CMakeFiles/potential_gap.dir/src/potential_gap.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/abdel/arena_ws/src/planners/potential_gap/src/trajectory_controller.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::Twist potential_gap::TrajectoryController::controlLaw(geometry_msgs::Pose, nav_msgs::Odometry, sensor_msgs::LaserScan, geometry_msgs::PoseStamped)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/potential_gap/src/trajectory_controller.cpp:271:74:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> > > potential_gap::TrajectoryController::findLocalLine(int)[m[K’ is deprecated: Not Used, Deemed Unnecessary [[01;35m[K-Wdeprecated-declarations[m[K]
+  271 |             std::vector<geometry_msgs::Point> vec = findLocalLine(min_idx[01;35m[K)[m[K;
+      |                                                                          [01;35m[K^[m[K
+[01m[K/home/abdel/arena_ws/src/planners/potential_gap/src/trajectory_controller.cpp:18:39:[m[K [01;36m[Knote: [m[Kdeclared here
+   18 |     std::vector<geometry_msgs::Point> [01;36m[KTrajectoryController[m[K::findLocalLine(int idx) {
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:1219: CMakeFiles/potential_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

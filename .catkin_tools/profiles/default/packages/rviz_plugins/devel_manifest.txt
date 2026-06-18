@@ -1,0 +1,5 @@
+arena/arena-rosnav/utils/plugins/rviz_plugins
+/home/abdel/arena_ws/devel/.private/rviz_plugins/lib/librviz_plugins.so /home/abdel/arena_ws/devel/lib/librviz_plugins.so
+/home/abdel/arena_ws/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc /home/abdel/arena_ws/devel/lib/pkgconfig/rviz_plugins.pc
+/home/abdel/arena_ws/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake /home/abdel/arena_ws/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
+/home/abdel/arena_ws/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake /home/abdel/arena_ws/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake

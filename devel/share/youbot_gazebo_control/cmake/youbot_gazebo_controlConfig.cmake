@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/youbot_gazebo_control/share/youbot_gazebo_control/cmake/youbot_gazebo_controlConfig.cmake

@@ -1,0 +1,18 @@
+[  0%] Built target gazebo_ros_2Dmap_plugin_xacro_generated_to_devel_space_
+[35m[1mScanning dependencies of target gazebo_2Dmap_plugin[0m
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0', needed by '/home/abdel/arena_ws/devel/.private/gazebo_ros_2Dmap_plugin/lib/libgazebo_2Dmap_plugin.so'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o[0m
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/extern/gazebo_ros_2Dmap_plugin/include/common.h:27[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/extern/gazebo_ros_2Dmap_plugin/include/gazebo_2Dmap_plugin.h:28[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/extern/gazebo_ros_2Dmap_plugin/src/gazebo_2Dmap_plugin.cpp:21[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25:10:[m[K [01;31m[Kfatal error: [m[Ksdf/sdf.hh: No such file or directory
+   25 | #include [01;31m[K"sdf/sdf.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_2Dmap_plugin.dir/build.make:63: CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1299: CMakeFiles/gazebo_2Dmap_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

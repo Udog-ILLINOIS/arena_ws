@@ -1,0 +1,14 @@
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0', needed by '/home/abdel/arena_ws/devel/.private/cob_gazebo_ros_control/lib/libhwi_switch_robot_hw_sim.so'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 25%] [32mBuilding CXX object CMakeFiles/hwi_switch_robot_hw_sim.dir/src/hwi_switch_robot_hw_sim.cpp.o[0m
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/gazebo_ros_control/default_robot_hw_sim.h:54[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/arena/utils/3rd-party-robot-packages/cob4/cob_gazebo_ros_control/include/cob_gazebo_ros_control/hwi_switch_robot_hw_sim.h:23[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/arena/utils/3rd-party-robot-packages/cob4/cob_gazebo_ros_control/src/hwi_switch_robot_hw_sim.cpp:19[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25:10:[m[K [01;31m[Kfatal error: [m[Ksdf/sdf.hh: No such file or directory
+   25 | #include [01;31m[K"sdf/sdf.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/hwi_switch_robot_hw_sim.dir/build.make:63: CMakeFiles/hwi_switch_robot_hw_sim.dir/src/hwi_switch_robot_hw_sim.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/hwi_switch_robot_hw_sim.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

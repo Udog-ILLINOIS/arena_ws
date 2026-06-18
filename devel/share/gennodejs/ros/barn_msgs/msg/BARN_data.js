@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/barn_msgs/share/gennodejs/ros/barn_msgs/msg/BARN_data.js

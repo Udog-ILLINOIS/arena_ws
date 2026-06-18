@@ -1,0 +1,6 @@
+devel_space: /home/abdel/arena_ws/devel
+install: false
+install_space: /home/abdel/arena_ws/install
+profile: default
+source_space: /home/abdel/arena_ws/src
+workspace: /home/abdel/arena_ws

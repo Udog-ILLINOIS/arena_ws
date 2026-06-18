@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/rosnav/share/roseus/ros/rosnav/manifest.l

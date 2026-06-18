@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/all_in_one_global_planner_interface/share/common-lisp/ros/all_in_one_global_planner_interface/srv/_package.lisp

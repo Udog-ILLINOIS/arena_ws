@@ -1,0 +1,7 @@
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/visualization/TrajectoryVisualizer.cpp:[m[K In member function ‘[01m[Kvoid dynamic_gap::TrajectoryVisualizer::drawCurrentTrajectory(const dynamic_gap::Trajectory&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/visualization/TrajectoryVisualizer.cpp:64:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope
+   64 |         for (const geometry_msgs::Pose & pose : [01;31m[Kpath[m[K.poses)
+      |                                                 [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/dynamic_gap.dir/build.make:336: CMakeFiles/dynamic_gap.dir/src/visualization/TrajectoryVisualizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1657: CMakeFiles/dynamic_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

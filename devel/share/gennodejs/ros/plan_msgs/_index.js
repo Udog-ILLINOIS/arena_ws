@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/plan_msgs/share/gennodejs/ros/plan_msgs/_index.js

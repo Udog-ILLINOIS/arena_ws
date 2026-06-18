@@ -1,0 +1,25 @@
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _spencer_vision_msgs_generate_messages_check_deps_PersonImages
+[  0%] Built target _spencer_vision_msgs_generate_messages_check_deps_PersonROIs
+[  0%] Built target _spencer_vision_msgs_generate_messages_check_deps_PersonImage
+[  0%] Built target _spencer_vision_msgs_generate_messages_check_deps_PersonROI
+[ 22%] Built target spencer_vision_msgs_generate_messages_eus
+[ 45%] Built target spencer_vision_msgs_generate_messages_py
+[ 63%] Built target spencer_vision_msgs_generate_messages_nodejs
+[ 86%] Built target spencer_vision_msgs_generate_messages_lisp
+[100%] Built target spencer_vision_msgs_generate_messages_cpp
+[100%] Built target spencer_vision_msgs_generate_messages

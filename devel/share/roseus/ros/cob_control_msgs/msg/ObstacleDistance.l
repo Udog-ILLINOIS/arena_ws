@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/cob_control_msgs/share/roseus/ros/cob_control_msgs/msg/ObstacleDistance.l

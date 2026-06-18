@@ -1,0 +1,25 @@
+arena/arena-rosnav/training
+/home/abdel/arena_ws/devel/.private/training/cmake.lock /home/abdel/arena_ws/devel/./cmake.lock
+/home/abdel/arena_ws/devel/.private/training/lib/pkgconfig/training.pc /home/abdel/arena_ws/devel/lib/pkgconfig/training.pc
+/home/abdel/arena_ws/devel/.private/training/lib/python3/dist-packages/training/__init__.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/training/__init__.py
+/home/abdel/arena_ws/devel/.private/training/lib/python3/dist-packages/training/srv/_String.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/training/srv/_String.py
+/home/abdel/arena_ws/devel/.private/training/lib/python3/dist-packages/training/srv/__init__.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/training/srv/__init__.py
+/home/abdel/arena_ws/devel/.private/training/lib/python3/dist-packages/tools/__init__.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/tools/__init__.py
+/home/abdel/arena_ws/devel/.private/training/lib/training/train_agent.py /home/abdel/arena_ws/devel/lib/training/train_agent.py
+/home/abdel/arena_ws/devel/.private/training/lib/training/cmake.lock /home/abdel/arena_ws/devel/lib/training/cmake.lock
+/home/abdel/arena_ws/devel/.private/training/share/roseus/ros/training/manifest.l /home/abdel/arena_ws/devel/share/roseus/ros/training/manifest.l
+/home/abdel/arena_ws/devel/.private/training/share/roseus/ros/training/srv/String.l /home/abdel/arena_ws/devel/share/roseus/ros/training/srv/String.l
+/home/abdel/arena_ws/devel/.private/training/share/gennodejs/ros/training/_index.js /home/abdel/arena_ws/devel/share/gennodejs/ros/training/_index.js
+/home/abdel/arena_ws/devel/.private/training/share/gennodejs/ros/training/srv/String.js /home/abdel/arena_ws/devel/share/gennodejs/ros/training/srv/String.js
+/home/abdel/arena_ws/devel/.private/training/share/gennodejs/ros/training/srv/_index.js /home/abdel/arena_ws/devel/share/gennodejs/ros/training/srv/_index.js
+/home/abdel/arena_ws/devel/.private/training/share/common-lisp/ros/training/srv/training-srv.asd /home/abdel/arena_ws/devel/share/common-lisp/ros/training/srv/training-srv.asd
+/home/abdel/arena_ws/devel/.private/training/share/common-lisp/ros/training/srv/_package.lisp /home/abdel/arena_ws/devel/share/common-lisp/ros/training/srv/_package.lisp
+/home/abdel/arena_ws/devel/.private/training/share/common-lisp/ros/training/srv/_package_String.lisp /home/abdel/arena_ws/devel/share/common-lisp/ros/training/srv/_package_String.lisp
+/home/abdel/arena_ws/devel/.private/training/share/common-lisp/ros/training/srv/String.lisp /home/abdel/arena_ws/devel/share/common-lisp/ros/training/srv/String.lisp
+/home/abdel/arena_ws/devel/.private/training/share/training/cmake/training-msg-extras.cmake /home/abdel/arena_ws/devel/share/training/cmake/training-msg-extras.cmake
+/home/abdel/arena_ws/devel/.private/training/share/training/cmake/trainingConfig-version.cmake /home/abdel/arena_ws/devel/share/training/cmake/trainingConfig-version.cmake
+/home/abdel/arena_ws/devel/.private/training/share/training/cmake/trainingConfig.cmake /home/abdel/arena_ws/devel/share/training/cmake/trainingConfig.cmake
+/home/abdel/arena_ws/devel/.private/training/share/training/cmake/training-msg-paths.cmake /home/abdel/arena_ws/devel/share/training/cmake/training-msg-paths.cmake
+/home/abdel/arena_ws/devel/.private/training/include/training/String.h /home/abdel/arena_ws/devel/include/training/String.h
+/home/abdel/arena_ws/devel/.private/training/include/training/StringResponse.h /home/abdel/arena_ws/devel/include/training/StringResponse.h
+/home/abdel/arena_ws/devel/.private/training/include/training/StringRequest.h /home/abdel/arena_ws/devel/include/training/StringRequest.h

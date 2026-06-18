@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/map_distance_server/share/gennodejs/ros/map_distance_server/srv/_index.js

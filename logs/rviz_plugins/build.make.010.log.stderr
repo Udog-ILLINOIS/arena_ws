@@ -1,0 +1,37 @@
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:[m[K In member function ‘[01m[Kvirtual void rviz::ContinuousGapSelectionTool::onInitialize()[m[K’:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KhasValidPos_[m[K’ was not declared in this scope
+   27 |   [01;31m[KhasValidPos_[m[K = false;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishTimer_[m[K’ was not declared in this scope
+   28 |   [01;31m[KpublishTimer_[m[K = nh_.createTimer(ros::Duration(0.1),
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:29:66:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallback[m[K’ is not a member of ‘[01m[Krviz::ContinuousGapSelectionTool[m[K’
+   29 |                                     &ContinuousGapSelectionTool::[01;31m[KtimerCallback[m[K, this);
+      |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:[m[K At global scope:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:33:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid rviz::ContinuousGapSelectionTool::timerCallback(const ros::TimerEvent&)[m[K’
+   33 | void [01;31m[KContinuousGapSelectionTool[m[K::timerCallback(const ros::TimerEvent&)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:33:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid rviz::ContinuousGapSelectionTool::timerCallback(const ros::TimerEvent&)[m[K’
+In file included from [01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:10[m[K:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.h:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rviz::ContinuousGapSelectionTool[m[K’ defined here
+   11 | class [01;36m[KContinuousGapSelectionTool[m[K : public Tool
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:[m[K In member function ‘[01m[Kvirtual void rviz::ContinuousGapSelectionTool::activate()[m[K’:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishTimer_[m[K’ was not declared in this scope
+   42 |     [01;31m[KpublishTimer_[m[K.start();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:[m[K In member function ‘[01m[Kvirtual void rviz::ContinuousGapSelectionTool::deactivate()[m[K’:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishTimer_[m[K’ was not declared in this scope
+   48 |     [01;31m[KpublishTimer_[m[K.stop();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:[m[K In member function ‘[01m[Kvirtual int rviz::ContinuousGapSelectionTool::processMouseEvent(rviz::ViewportMouseEvent&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[KlastKnownPos_[m[K’ was not declared in this scope
+   76 |         [01;31m[KlastKnownPos_[m[K.point.x = pos.x;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/arena/arena-rosnav/utils/plugins/rviz_plugins/src/continuous_gap_selection_tool.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[KhasValidPos_[m[K’ was not declared in this scope
+   81 |         [01;31m[KhasValidPos_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rviz_plugins.dir/build.make:114: CMakeFiles/rviz_plugins.dir/src/continuous_gap_selection_tool.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1939: CMakeFiles/rviz_plugins.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

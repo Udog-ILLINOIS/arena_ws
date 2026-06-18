@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/mbf_costmap_nav/lib/python3/dist-packages/mbf_costmap_nav/cfg/__init__.py

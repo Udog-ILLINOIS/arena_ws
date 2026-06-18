@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/mbf_msgs/share/roseus/ros/mbf_msgs/msg/MoveBaseActionFeedback.l

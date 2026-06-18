@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/arena_evaluation_msgs/share/roseus/ros/arena_evaluation_msgs/srv/ChangeDirectory.l

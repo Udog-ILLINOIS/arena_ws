@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/barn_msgs/share/common-lisp/ros/barn_msgs/msg/_package.lisp

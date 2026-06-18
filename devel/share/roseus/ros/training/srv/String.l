@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/training/share/roseus/ros/training/srv/String.l

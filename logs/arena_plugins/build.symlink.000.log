@@ -1,0 +1,4 @@
+Symlinking /home/abdel/arena_ws/devel/lib/libarena_plugins_lib.so
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/arena_plugins.pc
+Symlinking /home/abdel/arena_ws/devel/share/arena_plugins/cmake/arena_pluginsConfig.cmake
+Symlinking /home/abdel/arena_ws/devel/share/arena_plugins/cmake/arena_pluginsConfig-version.cmake

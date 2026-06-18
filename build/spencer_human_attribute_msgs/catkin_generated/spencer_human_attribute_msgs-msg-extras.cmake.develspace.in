@@ -1,0 +1,2 @@
+set(spencer_human_attribute_msgs_MESSAGE_FILES "/home/abdel/arena_ws/src/arena/utils/pedsim_ros/pedsim_engine/2ndparty/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg;/home/abdel/arena_ws/src/arena/utils/pedsim_ros/pedsim_engine/2ndparty/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg;/home/abdel/arena_ws/src/arena/utils/pedsim_ros/pedsim_engine/2ndparty/spencer_messages/spencer_human_attribute_msgs/msg/HumanAttributes.msg")
+set(spencer_human_attribute_msgs_SERVICE_FILES "")

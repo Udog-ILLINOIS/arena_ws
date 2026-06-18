@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/abdel/arena_ws/devel/.private/mecanum_gazebo_plugin/setup.sh

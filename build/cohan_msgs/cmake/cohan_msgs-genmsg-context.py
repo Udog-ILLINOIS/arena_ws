@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentPath.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentPathArray.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentTimeToGoal.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentTimeToGoalArray.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentTrajectory.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentTrajectoryArray.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentType.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrackedSegment.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrackedAgent.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrackedAgents.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrackedSegmentType.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/Trajectory.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrajectoryArray.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrajectoryPoint.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrajectoryPointMsg.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/TrajectoryMsg.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/StateArray.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentMarker.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/AgentMarkerStamped.msg;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg/PointArray.msg"
+services_str = ""
+pkg_name = "cohan_msgs"
+dependencies_str = "geometry_msgs;nav_msgs;std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "cohan_msgs;/home/abdel/arena_ws/src/planners/cohan/cohan_msgs/msg;geometry_msgs;/opt/ros/noetic/share/geometry_msgs/cmake/../msg;nav_msgs;/opt/ros/noetic/share/nav_msgs/cmake/../msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg;actionlib_msgs;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/home/abdel/.cache/pypoetry/virtualenvs/arena-rosnav-4sGAg00Q-py3.8/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

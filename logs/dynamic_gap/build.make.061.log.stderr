@@ -1,0 +1,19 @@
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K In member function ‘[01m[Kvoid dynamic_gap::Planner::rvizPublishPointSubsciberCB(const ConstPtr&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:657:32:[m[K [01;31m[Kerror: [m[K‘[01m[KcursorPosOdomFrame_[m[K’ was not declared in this scope
+  657 |         tf2::doTransform(*msg, [01;31m[KcursorPosOdomFrame_[m[K, map2odom_);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:658:9:[m[K [01;31m[Kerror: [m[K‘[01m[KhasCursorPos_[m[K’ was not declared in this scope
+  658 |         [01;31m[KhasCursorPos_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K At global scope:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:780:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool dynamic_gap::Planner::getCursorSelectedTrajectory(int&, int&, const std::vector<dynamic_gap::Trajectory>&, const std::vector<dynamic_gap::Trajectory>&, const std::vector<dynamic_gap::Trajectory>&)[m[K’
+  780 |     bool [01;31m[KPlanner[m[K::getCursorSelectedTrajectory(int& trajFlag,
+      |          [01;31m[K^~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:780:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool dynamic_gap::Planner::getCursorSelectedTrajectory(int&, int&, const std::vector<dynamic_gap::Trajectory>&, const std::vector<dynamic_gap::Trajectory>&, const std::vector<dynamic_gap::Trajectory>&)[m[K’
+In file included from [01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:1[m[K:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/include/dynamic_gap/Planner.h:73:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass dynamic_gap::Planner[m[K’ defined here
+   73 |     class [01;36m[KPlanner[m[K
+      |           [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/dynamic_gap.dir/build.make:349: CMakeFiles/dynamic_gap.dir/src/Planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1657: CMakeFiles/dynamic_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

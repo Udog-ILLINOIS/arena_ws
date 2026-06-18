@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/hateb_local_planner/share/roseus/ros/hateb_local_planner/msg/TrajectoryMsg.l

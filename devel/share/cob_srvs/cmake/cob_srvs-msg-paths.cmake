@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/cob_srvs/share/cob_srvs/cmake/cob_srvs-msg-paths.cmake

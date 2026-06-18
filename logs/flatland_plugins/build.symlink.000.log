@@ -1,0 +1,4 @@
+Symlinking /home/abdel/arena_ws/devel/lib/libflatland_plugins_lib.so
+Symlinking /home/abdel/arena_ws/devel/lib/pkgconfig/flatland_plugins.pc
+Symlinking /home/abdel/arena_ws/devel/share/flatland_plugins/cmake/flatland_pluginsConfig-version.cmake
+Symlinking /home/abdel/arena_ws/devel/share/flatland_plugins/cmake/flatland_pluginsConfig.cmake

@@ -1,0 +1,14 @@
+arena/utils/3rd-party-robot-packages/cob4/cob_omni_drive_controller
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/cmake.lock /home/abdel/arena_ws/devel/./cmake.lock
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/libcob_omni_drive_geom.so /home/abdel/arena_ws/devel/lib/libcob_omni_drive_geom.so
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/libcob_omni_drive_controller.so /home/abdel/arena_ws/devel/lib/libcob_omni_drive_controller.so
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/pkgconfig/cob_omni_drive_controller.pc /home/abdel/arena_ws/devel/lib/pkgconfig/cob_omni_drive_controller.pc
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/python3/dist-packages/cob_omni_drive_controller/__init__.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/cob_omni_drive_controller/__init__.py
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/python3/dist-packages/cob_omni_drive_controller/cfg/__init__.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/cob_omni_drive_controller/cfg/__init__.py
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/lib/python3/dist-packages/cob_omni_drive_controller/cfg/SteerCtrlConfig.py /home/abdel/arena_ws/devel/lib/python3/dist-packages/cob_omni_drive_controller/cfg/SteerCtrlConfig.py
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/share/cob_omni_drive_controller/cmake/cob_omni_drive_controllerConfig-version.cmake /home/abdel/arena_ws/devel/share/cob_omni_drive_controller/cmake/cob_omni_drive_controllerConfig-version.cmake
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/share/cob_omni_drive_controller/cmake/cob_omni_drive_controllerConfig.cmake /home/abdel/arena_ws/devel/share/cob_omni_drive_controller/cmake/cob_omni_drive_controllerConfig.cmake
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/share/cob_omni_drive_controller/docs/SteerCtrlConfig-usage.dox /home/abdel/arena_ws/devel/share/cob_omni_drive_controller/docs/SteerCtrlConfig-usage.dox
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/share/cob_omni_drive_controller/docs/SteerCtrlConfig.dox /home/abdel/arena_ws/devel/share/cob_omni_drive_controller/docs/SteerCtrlConfig.dox
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/share/cob_omni_drive_controller/docs/SteerCtrlConfig.wikidoc /home/abdel/arena_ws/devel/share/cob_omni_drive_controller/docs/SteerCtrlConfig.wikidoc
+/home/abdel/arena_ws/devel/.private/cob_omni_drive_controller/include/cob_omni_drive_controller/SteerCtrlConfig.h /home/abdel/arena_ws/devel/include/cob_omni_drive_controller/SteerCtrlConfig.h

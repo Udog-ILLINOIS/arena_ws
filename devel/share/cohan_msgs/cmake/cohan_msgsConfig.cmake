@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/cohan_msgs/share/cohan_msgs/cmake/cohan_msgsConfig.cmake

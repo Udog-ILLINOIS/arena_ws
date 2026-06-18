@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/cadrl-ros/share/cadrl-ros/cmake/cadrl-rosConfig.cmake

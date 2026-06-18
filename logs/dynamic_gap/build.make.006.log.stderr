@@ -1,0 +1,13 @@
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:[m[K In member function ‘[01m[Kvoid dynamic_gap::Planner::generateGapTrajsV2(std::vector<dynamic_gap::GapTube*>&, std::vector<dynamic_gap::Trajectory>&, std::vector<std::vector<float> >&, std::vector<float>&, const std::vector<sensor_msgs::LaserScan_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:1409:161:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdynamic_gap::TrajectoryEvaluator::dwa_evaluateTrajectory(float&, geometry_msgs::PoseArray&, std::vector<float>&, std::vector<float>&, float&, const std::vector<sensor_msgs::LaserScan_<std::allocator<void> > >&, int&, std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >&)[m[K’
+ 1409 | trajEvaluator_->dwa_evaluateTrajectory(totalTrajCost, dwa_traj.pose_array, dwa_PoseCosts, dwa_PathCosts, dwa_TerminalPoseCost, futureScans, scanIdx, visiblePlan[01;31m[K)[m[K;
+      |                                                                                                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/include/dynamic_gap/Planner.h:38[m[K,
+                 from [01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/src/Planner.cpp:1[m[K:
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/include/dynamic_gap/trajectory_evaluation/TrajectoryEvaluator.h:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid dynamic_gap::TrajectoryEvaluator::dwa_evaluateTrajectory(float&, geometry_msgs::PoseArray&, std::vector<float>&, std::vector<float>&, float&, const std::vector<sensor_msgs::LaserScan_<std::allocator<void> > >&, const int&, const std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >&, dynamic_gap::Gap*, std::vector<float>&)[m[K’
+   61 |             void [01;36m[Kdwa_evaluateTrajectory[m[K(float & totalTrajCost, geometry_msgs::PoseArray & pose_array,
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abdel/arena_ws/src/planners/dynamic_gap/include/dynamic_gap/trajectory_evaluation/TrajectoryEvaluator.h:61:18:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 8 provided
+make[2]: *** [CMakeFiles/dynamic_gap.dir/build.make:349: CMakeFiles/dynamic_gap.dir/src/Planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1657: CMakeFiles/dynamic_gap.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

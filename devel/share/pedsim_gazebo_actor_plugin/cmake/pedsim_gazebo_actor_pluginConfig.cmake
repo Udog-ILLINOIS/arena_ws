@@ -1,0 +1,1 @@
+/home/abdel/arena_ws/devel/.private/pedsim_gazebo_actor_plugin/share/pedsim_gazebo_actor_plugin/cmake/pedsim_gazebo_actor_pluginConfig.cmake
