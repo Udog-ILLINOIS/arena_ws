@@ -1,0 +1,158 @@
+diff --git a/arena_evaluation/arena_evaluation/metrics.py b/arena_evaluation/arena_evaluation/metrics.py
+index 24c458c..91cfbb9 100644
+--- a/arena_evaluation/arena_evaluation/metrics.py
++++ b/arena_evaluation/arena_evaluation/metrics.py
+@@ -215,20 +215,17 @@ class Metrics:
+         data = pd.concat(self._load_data(), axis=1, join="inner")
+         data = data.loc[:,~data.columns.duplicated()].copy()
+ 
+-        i = 0
+-
+         episode_data = self._episode_data = {}
+ 
+-        while True:
++        # skip short episodes instead of stopping, so one empty episode doesn't drop all later ones
++        for i in sorted(data["episode"].unique()):
+             current_episode = data[data["episode"] == i]
+ 
+-            # print("current_episode: ", current_episode)
+-
+             if len(current_episode) < Config.MIN_EPISODE_LENGTH:
+-                break
+-            
++                print(f"Skipping episode {i}: {len(current_episode)} rows")
++                continue
++
+             episode_data[i] = self._analyze_episode(current_episode, i)
+-            i = i + 1
+ 
+     @property
+     def data(self) -> pd.DataFrame:
+@@ -237,10 +234,10 @@ class Metrics:
+     
+     def _analyze_episode(self, episode: pd.DataFrame, index) -> Metric:
+ 
+-        episode["time"] /= 10**10
+-        
++        episode["time"] /= 10**9
++
+         positions = np.array([frame["position"] for frame in episode["odom"]])
+-        velocities = np.array([frame["position"] for frame in episode["odom"]])
++        velocities = np.array([frame["velocity"] for frame in episode["odom"]])
+ 
+         curvature, normalized_curvature = Math.curvature(positions)
+         roughness = Math.roughness(positions)
+diff --git a/arena_evaluation/arena_evaluation/metrics_static.py b/arena_evaluation/arena_evaluation/metrics_static.py
+index 8bfcccb..1d67e5e 100644
+--- a/arena_evaluation/arena_evaluation/metrics_static.py
++++ b/arena_evaluation/arena_evaluation/metrics_static.py
+@@ -215,20 +215,17 @@ class Metrics:
+         data = pd.concat(self._load_data(), axis=1, join="inner")
+         data = data.loc[:,~data.columns.duplicated()].copy()
+ 
+-        i = 0
+-
+         episode_data = self._episode_data = {}
+ 
+-        while True:
++        # skip short episodes instead of stopping, so one empty episode doesn't drop all later ones
++        for i in sorted(data["episode"].unique()):
+             current_episode = data[data["episode"] == i]
+ 
+-            # print("current_episode: ", current_episode)
+-
+             if len(current_episode) < Config.MIN_EPISODE_LENGTH:
+-                break
++                print(f"Skipping episode {i}: {len(current_episode)} rows")
++                continue
+             
+             episode_data[i] = self._analyze_episode(current_episode, i)
+-            i = i + 1
+ 
+     @property
+     def data(self) -> pd.DataFrame:
+@@ -237,10 +234,10 @@ class Metrics:
+     
+     def _analyze_episode(self, episode: pd.DataFrame, index) -> Metric:
+ 
+-        episode["time"] /= 10**10
++        episode["time"] /= 10**9
+         
+         positions = np.array([frame["position"] for frame in episode["odom"]])
+-        velocities = np.array([frame["position"] for frame in episode["odom"]])
++        velocities = np.array([frame["velocity"] for frame in episode["odom"]])
+ 
+         curvature, normalized_curvature = Math.curvature(positions)
+         roughness = Math.roughness(positions)
+diff --git a/arena_evaluation/scripts/data_recorder_node b/arena_evaluation/scripts/data_recorder_node
+index f55c2a1..92f78fe 100644
+--- a/arena_evaluation/scripts/data_recorder_node
++++ b/arena_evaluation/scripts/data_recorder_node
+@@ -130,24 +130,37 @@ class Recorder:
+ 
+         topics_to_monitor = self.get_topics_to_monitor()
+ 
+-        topics = rostopic.get_topic_list()
+-        published_topics = topics[0]
+-
+         topic_matcher = re.compile(f"({'|'.join([t[0] for t in topics_to_monitor])})$")
+ 
++        # the simulator may not be publishing yet, so wait until every data topic exists
++        expected = {"scan", "odom", "cmd_vel", "pedsim_agents_data"}
+         topics_to_sub = []
+ 
+-        for t in published_topics:
+-            topic_name = t[0]
++        while not rospy.is_shutdown():
++            published_topics = rostopic.get_topic_list()[0]
++
++            topics_to_sub = []
++
++            for t in published_topics:
++                topic_name = t[0]
++
++                match = re.search(topic_matcher, topic_name)
+ 
+-            match = re.search(topic_matcher, topic_name)
++                if not match:
++                    continue
+ 
+-            if not match: 
+-                continue
++                topic_class = self.get_class_for_topic_name(topic_name)
+ 
+-            topics_to_sub.append([topic_name, *self.get_class_for_topic_name(topic_name)])
++                if topic_class:
++                    topics_to_sub.append([topic_name, *topic_class])
+ 
+-            # topics_to_sub.append([topic_name, *[t for t in topics_to_monitor if t[0] == match.group()][0]])
++            missing = expected - {t[1] for t in topics_to_sub}
++
++            if not missing:
++                break
++
++            rospy.logwarn_throttle(10, f"data_recorder: waiting for topics {sorted(missing)}")
++            rospy.sleep(1.0)
+ 
+         self.data_collectors = []
+ 
+@@ -178,7 +191,7 @@ class Recorder:
+         self.current_episode = data.data
+ 
+     def clock_callback(self, clock: Clock):
+-        current_simulation_action_time = clock.clock.secs * 10e9 + clock.clock.nsecs
++        current_simulation_action_time = clock.clock.to_nsec()
+ 
+         if not self.current_time:
+             self.current_time = current_simulation_action_time
+@@ -188,6 +201,10 @@ class Recorder:
+         if time_diff < self.config["record_frequency"]:
+             return
+ 
++        # don't write rows until every topic has delivered at least one message
++        if any(collector.data is None for collector in self.data_collectors):
++            return
++
+         self.current_time = current_simulation_action_time
+ 
+         for collector in self.data_collectors:
