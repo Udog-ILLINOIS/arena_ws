@@ -1,0 +1,48 @@
+[submodule "src/arena/arena-rosnav"]
+	path = src/arena/arena-rosnav
+	url = https://github.com/Arena-Rosnav/arena-rosnav.git
+[submodule "src/arena/evaluation"]
+	path = src/arena/evaluation
+	url = https://github.com/ivaROS/arena-evaluation.git
+[submodule "src/arena/simulation-setup"]
+	path = src/arena/simulation-setup
+	url = https://github.com/ivaROS/arena-simulation-setup.git
+[submodule "src/arena/utils/3rd-party-robot-packages"]
+	path = src/arena/utils/3rd-party-robot-packages
+	url = https://github.com/Arena-Rosnav/3rd-party-robot-packages.git
+[submodule "src/arena/utils/actionlib"]
+	path = src/arena/utils/actionlib
+	url = https://github.com/ros/actionlib.git
+[submodule "src/arena/utils/flatland"]
+	path = src/arena/utils/flatland
+	url = https://github.com/ivaROS/flatland.git
+[submodule "src/arena/utils/mod_rto_scan"]
+	path = src/arena/utils/mod_rto_scan
+	url = https://github.com/ivaROS/mod_rto_scan.git
+[submodule "src/arena/utils/move_base_flex"]
+	path = src/arena/utils/move_base_flex
+	url = https://github.com/Arena-Rosnav/move_base_flex.git
+[submodule "src/arena/utils/navigation"]
+	path = src/arena/utils/navigation
+	url = https://github.com/ivaROS/navigation.git
+[submodule "src/arena/utils/pedsim_ros"]
+	path = src/arena/utils/pedsim_ros
+	url = https://github.com/ivaROS/pedsim_ros.git
+[submodule "src/arena/utils/stable-baselines3"]
+	path = src/arena/utils/stable-baselines3
+	url = https://github.com/tuananhroman/stable-baselines3.git
+[submodule "src/arena/utils/unitree_ros"]
+	path = src/arena/utils/unitree_ros
+	url = https://github.com/voshch/unitree_ros.git
+[submodule "src/extern/ford_msgs"]
+	path = src/extern/ford_msgs
+	url = https://bitbucket.org/acl-swarm/ford_msgs.git
+[submodule "src/extern/gazebo_ros_2Dmap_plugin"]
+	path = src/extern/gazebo_ros_2Dmap_plugin
+	url = https://github.com/marinaKollmitz/gazebo_ros_2Dmap_plugin.git
+[submodule "src/extern/jackal"]
+	path = src/extern/jackal
+	url = https://github.com/jackal/jackal.git
+[submodule "src/planners/dynamic_gap"]
+	path = src/planners/dynamic_gap
+	url = https://github.com/ivaROS/DynamicGap.git
